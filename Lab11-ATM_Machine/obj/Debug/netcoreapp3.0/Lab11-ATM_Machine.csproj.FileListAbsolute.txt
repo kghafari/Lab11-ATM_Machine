@@ -1,0 +1,11 @@
+C:\Users\kyleg\source\repos\Lab11-ATM_Machine\Lab11-ATM_Machine\bin\Debug\netcoreapp3.0\Lab11-ATM_Machine.exe
+C:\Users\kyleg\source\repos\Lab11-ATM_Machine\Lab11-ATM_Machine\bin\Debug\netcoreapp3.0\Lab11-ATM_Machine.deps.json
+C:\Users\kyleg\source\repos\Lab11-ATM_Machine\Lab11-ATM_Machine\bin\Debug\netcoreapp3.0\Lab11-ATM_Machine.runtimeconfig.json
+C:\Users\kyleg\source\repos\Lab11-ATM_Machine\Lab11-ATM_Machine\bin\Debug\netcoreapp3.0\Lab11-ATM_Machine.runtimeconfig.dev.json
+C:\Users\kyleg\source\repos\Lab11-ATM_Machine\Lab11-ATM_Machine\bin\Debug\netcoreapp3.0\Lab11-ATM_Machine.dll
+C:\Users\kyleg\source\repos\Lab11-ATM_Machine\Lab11-ATM_Machine\bin\Debug\netcoreapp3.0\Lab11-ATM_Machine.pdb
+C:\Users\kyleg\source\repos\Lab11-ATM_Machine\Lab11-ATM_Machine\obj\Debug\netcoreapp3.0\Lab11-ATM_Machine.csprojAssemblyReference.cache
+C:\Users\kyleg\source\repos\Lab11-ATM_Machine\Lab11-ATM_Machine\obj\Debug\netcoreapp3.0\Lab11-ATM_Machine.AssemblyInfoInputs.cache
+C:\Users\kyleg\source\repos\Lab11-ATM_Machine\Lab11-ATM_Machine\obj\Debug\netcoreapp3.0\Lab11-ATM_Machine.AssemblyInfo.cs
+C:\Users\kyleg\source\repos\Lab11-ATM_Machine\Lab11-ATM_Machine\obj\Debug\netcoreapp3.0\Lab11-ATM_Machine.dll
+C:\Users\kyleg\source\repos\Lab11-ATM_Machine\Lab11-ATM_Machine\obj\Debug\netcoreapp3.0\Lab11-ATM_Machine.pdb
