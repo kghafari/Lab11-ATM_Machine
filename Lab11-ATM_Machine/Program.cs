@@ -76,7 +76,7 @@ namespace Lab11_ATM_Machine
                 {
                     case "1":
                     case "register new account":
-                        //
+                        ATM.RegisterAccount(accountList);
                         break;
 
                     case "2":

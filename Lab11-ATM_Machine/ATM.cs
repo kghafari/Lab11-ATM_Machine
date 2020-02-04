@@ -26,9 +26,18 @@ namespace Lab11_ATM_Machine
         //methods
 
         //#1 - Register Account. Takes a username and password and uses them to create a new account, and add to list of active accounts
-        private static void RegisterAccount()
+        public static void RegisterAccount(List<Account> listOfAccounts)
         {
+            var newAccount = new Account();
             // do stuff
+            newAccount.Name = GetUserInput("Please enter the new user's name: ");
+            newAccount.Password = GetUserInput("Please enter a new password: ");
+
+            listOfAccounts.Add(newAccount);
+
+            GetUserInput("\nAccount created. Press enter to return to main menu.");
+
+            Program.ReturnToMainMenu(listOfAccounts);
         }
 
         //#2 - Login. Takes username and password.
@@ -47,10 +56,11 @@ namespace Lab11_ATM_Machine
                     //good stuff. Go to Login page
                     //like... DisplayLoginPage()
                     DisplayLoginPage(accountList[i]);
-                    
-                }
+                    break;
+                }            
             }
-            
+                Program.ReturnToMainMenu(accountList);            
+
             //Bad stuff. Return to main menu
         }
 
@@ -59,7 +69,7 @@ namespace Lab11_ATM_Machine
         public static void UserLogout(Account currentAccount)
         {
             //do stuff
-            //currentAccount = null;
+            currentAccount = null;
         }
 
         public static void DisplayLoginPage(Account loggedInAccount)
@@ -67,6 +77,7 @@ namespace Lab11_ATM_Machine
             Console.WriteLine("1. Check Balance");
             Console.WriteLine("2. Deposit");          
             Console.WriteLine("3. Withdraw");
+            Console.WriteLine("4. Logout");
             
 
 
@@ -90,6 +101,15 @@ namespace Lab11_ATM_Machine
                     case "3":
                     case "withdraw":
                         WithdrawFromAccount(loggedInAccount);
+                        break;
+
+                    case "4":
+                    case "Logout":
+                        UserLogout(loggedInAccount);
+                        //would really like to do ReturnToMainMenu() here, but the paramater is of the wrong type :(
+                        // might have to do something like a ReturnFromLogin() method
+                        Console.WriteLine("Goodbye!");
+                        Environment.Exit(0);
                         break;
 
                     default:
